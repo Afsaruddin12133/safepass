@@ -1,0 +1,35 @@
+name: Safepass
+description: "Safepass is a secure and easy-to-use app for managing logins & registration, protecting personal data, and keeping your accounts safe."
+publish_to:
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.1
+  shared_preferences: ^2.3.2
+
+  cupertino_icons: ^1.0.8
+  device_preview : ^1.2.0
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.13.1
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "lib/assets/logo.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/assets/logo.png

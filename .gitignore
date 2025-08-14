@@ -1,0 +1,95 @@
+# -----------------------------
+# OS & Editors
+# -----------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+
+# -----------------------------
+# Global logs & cache
+# -----------------------------
+*.log
+*.tmp
+*.swp
+
+# =========================================================
+# BACKEND (Python / Flask)
+# Path: safepass_backend/
+# =========================================================
+safepass_backend/__pycache__/
+safepass_backend/**/*.pyc
+safepass_backend/.pytest_cache/
+safepass_backend/.mypy_cache/
+safepass_backend/.coverage
+safepass_backend/.python-version
+
+# Virtual environments
+safepass_backend/venv/
+safepass_backend/.venv/
+
+# Secrets / local env
+safepass_backend/.env
+safepass_backend/.env.*
+safepass_backend/instance/
+
+# Build / dist (in case you package anything)
+safepass_backend/build/
+safepass_backend/dist/
+
+# SQLite (if ever used locally)
+safepass_backend/**/*.sqlite
+safepass_backend/**/*.sqlite3
+
+# Keep DB schema scripts (do NOT ignore your migrations folder)
+# If you store .sql schema files under database/schema, keep them tracked:
+# (No ignore rule here on purpose)
+
+# =========================================================
+# FRONTEND (Flutter)
+# Path: safepass_frontend/
+# =========================================================
+# Flutter & Dart tool dirs
+safepass_frontend/.dart_tool/
+safepass_frontend/.packages
+
+# Flutter build outputs
+safepass_frontend/build/
+safepass_frontend/**/GeneratedPluginRegistrant.*
+
+# Android specific
+safepass_frontend/android/.gradle/
+safepass_frontend/android/local.properties
+safepass_frontend/android/**/captures/
+safepass_frontend/android/**/build/
+
+# Keystores / signing (never commit!)
+safepass_frontend/android/key.properties
+safepass_frontend/android/**/.keystore
+safepass_frontend/android/**/*.jks
+safepass_frontend/android/**/*.keystore
+
+# iOS specific
+safepass_frontend/ios/Pods/
+safepass_frontend/ios/.symlinks/
+safepass_frontend/ios/Flutter/Flutter.framework
+safepass_frontend/ios/Flutter/Flutter.podspec
+safepass_frontend/ios/Flutter/App.framework
+safepass_frontend/ios/Flutter/Generated.xcconfig
+safepass_frontend/ios/Flutter/ephemeral/
+safepass_frontend/ios/Runner.xcodeproj/project.xcworkspace/
+safepass_frontend/ios/Runner.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+safepass_frontend/ios/**/build/
+
+# Web (generated during build)
+safepass_frontend/web/.dart_tool/
+safepass_frontend/.firebase/
+
+# Assets cache (keep your actual images like lib/assets/logo.png)
+# (No ignore rule for lib/assets)
+
+# ---------------------------------------------------------
+# Locks: For Flutter apps, keep pubspec.lock committed.
+# For Python, keep requirements.txt, not venv.
+# ---------------------------------------------------------
