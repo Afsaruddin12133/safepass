@@ -95,9 +95,9 @@ safepass_frontend/
 
 ## **📸 Screenshots**
 
-| Web                                    | Android                                        | iOS                                    |
-| -------------------------------------- | ---------------------------------------------- | -------------------------------------- |
-| ![Web Screenshot](screenshots/web.png) | ![Android Screenshot](screenshots/android.png) | ![iOS Screenshot](screenshots/ios.png) |
+| Android                                                                  | ios                                                              | Web                                                              |
+| ------------------------------------------------------------------------ | ---------------------------------------------------------------- | ---------------------------------------------------------------- |
+| ![Android Screenshot](./safepass_frontend/lib/screenshots/android/1.png) | ![ios Screenshot](./safepass_frontend/lib/screenshots/ios/1.png) | ![web Screenshot](./safepass_frontend/lib/screenshots/web/1.png) |
 
 ---
 
@@ -124,14 +124,13 @@ safepass_frontend/
 ### **2. Clone the Repository**
 
 ```bash
-git clone <your-repo-link>
-cd <your-repo-name>
-
+git clone https://github.com/Afsaruddin12133/safepass.git
+cd safepass
+```
 
 ### **Configure MySQL Database**
 
-```
-
+```bash
 CREATE DATABASE IF NOT EXISTS user_db;
 USE user_db;
 
@@ -145,7 +144,7 @@ password VARCHAR(200) NOT NULL
 
 ### **Backend Setup (Flask API)**
 
-```
+```bash
 
 cd safepass_backend
 python -m venv .venv
@@ -155,24 +154,25 @@ python -m venv .venv
 
 pip install -r requirements.txt
 python app.py
-
 ```
+
 Backend will run at: http://127.0.0.1:5000
 
 ### **Frontend Setup (Flutter App)**
-```
+
+```bash
 
 cd ../safepass_frontend
 flutter pub get
 
 ```
+
 ### **Connect Frontend & Backend**
+
 In lib/config.dart of the Flutter app, update:
-```
 
 const String apiBaseUrl = "http://127.0.0.1:5000";
 
-```
 For physical mobile devices, replace 127.0.0.1 with your local IP address.
 
 👨‍💻 Author
@@ -180,4 +180,3 @@ For physical mobile devices, replace 127.0.0.1 with your local IP address.
 Afsar Uddin
 💼 Aspiring Software Engineer | 🌏 Bangladesh
 📧 Email: afsaruddin12133@gmail.com
-```
