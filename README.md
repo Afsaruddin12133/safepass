@@ -95,11 +95,27 @@ safepass_frontend/
 
 ## **📸 Screenshots**
 
-| Android                                                                  | ios                                                              | Web                                                              |
-| ------------------------------------------------------------------------ | ---------------------------------------------------------------- | ---------------------------------------------------------------- |
-| ![Android Screenshot](./safepass_frontend/lib/screenshots/android/1.png) | ![ios Screenshot](./safepass_frontend/lib/screenshots/ios/1.png) | ![web Screenshot](./safepass_frontend/lib/screenshots/web/1.png) |
+### **📱 Android**
+<p align="center">
+  <img src="./safepass_frontend/lib/screenshots/android/1.png" alt="Android Screenshot 1" width="250"/>
+  <img src="./safepass_frontend/lib/screenshots/android/2.png" alt="Android Screenshot 2" width="250"/>
+  <img src="./safepass_frontend/lib/screenshots/android/3.png" alt="Android Screenshot 3" width="250"/>
+</p>
 
----
+### **🍏 iOS**
+<p align="center">
+  <img src="./safepass_frontend/lib/screenshots/ios/1.png" alt="iOS Screenshot 1" width="250"/>
+  <img src="./safepass_frontend/lib/screenshots/ios/2.png" alt="iOS Screenshot 2" width="250"/>
+  <img src="./safepass_frontend/lib/screenshots/ios/3.png" alt="iOS Screenshot 3" width="250"/>
+</p>
+
+### **💻 Web**
+<p align="center">
+  <img src="./safepass_frontend/lib/screenshots/web/1.png" alt="Web Screenshot 1" width="300"/>
+  <img src="./safepass_frontend/lib/screenshots/web/2.png" alt="Web Screenshot 2" width="300"/>
+  <img src="./safepass_frontend/lib/screenshots/web/3.png" alt="Web Screenshot 3" width="300"/>
+</p>
+
 
 ## **⚙️ Setup & Run Instructions**
 

@@ -5,7 +5,6 @@
 Thumbs.db
 desktop.ini
 .idea/
-.vscode/
 
 # -----------------------------
 # Global logs & cache
@@ -93,3 +92,8 @@ safepass_frontend/.firebase/
 # Locks: For Flutter apps, keep pubspec.lock committed.
 # For Python, keep requirements.txt, not venv.
 # ---------------------------------------------------------
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+config.bat
+node_modules

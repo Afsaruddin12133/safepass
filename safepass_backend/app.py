@@ -1,3 +1,4 @@
+import utils.session
 from extensions import mysql, jwt
 from routes.auth_routes import auth_bp
 from flask_cors import CORS
